@@ -1,0 +1,42 @@
+.btn-submit-outline-success{
+  color: white;
+  border-color:white;
+  width: 286px;
+  border-radius: 0px;
+}
+.btn-submit-outline-success:hover{
+  border-color:white;
+  background-color: white;
+  color:#a5d549;
+}
+.btn-outline-primary{
+  color: #a5d549;
+  border-color: #a5d549;
+}
+.btn-outline-primary:hover{
+  color: #a5d549;
+  border-color: #a5d549;
+  background-color: transparent;
+}
+.btn-outline-secondary:hover{
+  background-color: #BFBFBF;
+  color: black;
+}
+.custom-select{
+  background-color: #90b746;
+  border:1px solid white;
+  color:white;
+}
+.btn-outline-info{
+  background-color: white;
+  color: #777777;
+  border:1px solid #2f2f2f;
+  border-radius: 0px;
+  width:100%;
+}
+.btn-outline-info:hover{
+  background-color: #90b746;
+  color: white;
+  border:1px solid #777777;
+}
+

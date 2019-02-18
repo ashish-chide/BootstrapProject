@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>BTW Visas</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="override.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <!-- brand for the website logo -->
+
+      <a class="navbar-brand" href="home.html">
+          BTW Visas
+      </a>
+
+
+      <!-- this is the menu  -->
+      <div class="collapse navbar-collapse">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="home.html">Home <span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Our Services</a>
+              <div class="dropdown-menu" >
+                <a class="dropdown-item" href="#">Visa Assistance</a>
+                <a class="dropdown-item" href="#">Air Ticketing</a>
+                <a class="dropdown-item" href="#">Attestation& Apostile</a>
+                <a class="dropdown-item" href="#">Travel Insurance</a>
+                <a class="dropdown-item" href="#">Holiday Packages</a>
+              </div>
+
+            </li>
+             <li class="nav-item ">
+              <a class="nav-link" href="#">E-Visa</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Visa Requirements</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About us</a>
+            </li>
+          </ul>
+      </div>
+      <!-- button on right side of the header -->
+      <button type="button" class="btn btn-outline-primary btn-sm ml-2">We're Hiring</button>
+      <button type="button" class="btn btn-outline-secondary btn-sm ml-2">Log In</button>
+      <!-- hamburger -->
+      <button class="navbar-toggler ml-auto mt-2 mt-lg-0" type="button">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </nav>
+
+    <!-- The main section goes here  -->
+    <section class="background-container">
+      <div class="text-center">
+          <h1 class="main-heading">Are You Struggling With Your Visa Application ?</h1>
+          <h5 class="main-heading">Quick & Simple step to apply for your visa</h5>
+      </div>
+      <div class="container d-flex justify-content-center">
+        <form class="myform mt-3 mb-5" action="#" method="post">
+          <div class="row d-flex flex-row">
+            <div class="col-sm-12 col-lg-6 p-2">
+              <input placeholder="Phone" name="Phone" class="input-background " type="text" required>
+            </div>
+            <div class="col-sm-12 col-lg-6 p-2 justify-content-center">
+              <select class="input-background" id="inputGroupSelect01">
+                <option selected>Please select Destination Country</option>
+                <option value="1">Australia</option>
+                <option value="2">USA</option>
+                <option value="3">Canada</option>
+                <option value="4">Germany</option>
+                <option value="5">United Kingdom</option>
+              </select>
+            </div>
+           </div>
+           <div class="row d-flex flex-row">
+              <div class="col-sm-12 col-lg-6 p-2 ">
+                <input placeholder="Email" name="Email" class="input-background " type="emial" required>
+              </div>
+              <div class="col-sm-12 col-lg-6 p-2">
+                <select class="input-background" id="inputGroupSelect01">
+                  <option selected>What is the purpose of Travel?</option>
+                  <option value="1">Tourist</option>
+                  <option value="2">Visit to Family/Friends</option>
+                  <option value="3">Business</option>
+                  <option value="4">Study</option>
+                </select>
+               </div>
+            </div>
+            <div class="row d-flex flex-row">
+              <div class="col-sm-12 col-lg-6 p-2 ">
+                <input placeholder="Name" name="Name" class="input-background " type="text" required>
+              </div>
+              <div class=" col-sm-6 col-lg-6 p-2">
+                <input placeholder="Duration of Stay" name="Duration" class="duration-input" type="text" required>
+                <select class="custom-select duration-select" id="inputGroupSelect01">
+                  <option selected>Days</option>
+                  <option value="1">Month</option>
+                  <option value="2">Year</option>
+                  <option value="3">Hours</option>
+                </select>
+              </div>
+          </div>
+          <div class="row d-flex flex-row">
+              <div class="col-sm-12 col-lg-6 p-2 mt-3.5">
+                <input placeholder="Your City" name="City" class="input-background" type="text" style="margin-top:32px;"required>
+              </div>
+              <div class="col-sm-12 col-lg-6 p-2" >
+                <textarea row="5" placeholder="Have Something in Mind Let us Know" name="City" class="textarea" required></textarea>
+              </div>
+          </div>
+          <span class="col-sm-8 col-lg-12 white-line"></span>
+          <div class="row d-flex flex-row pt-2">
+            <div class="col-sm-2 col-lg-3 d-flex">
+            <input class="checkbox-inline checkbox pr-2 " type="checkbox" name="visa" disabled="true" checked="true" >
+            <label class="checkbox-label pr-2 flex-fill">Visa</label>
+            </div>
+
+            <div class="col-sm-2 col-lg-3 d-flex">
+            <input class="checkbox-inline checkbox pr-2 " type="checkbox" name="currency">
+            <label class="checkbox-label pr-2 flex-fill">Currency Exchange</label>
+            </div>
+
+            <div class="col-sm-2 col-lg-3 d-flex">
+            <input class="checkbox-inline checkbox pr-2 " type="checkbox" name="Air">
+            <label class="checkbox-label pr-2 flex-fill">Air Ticketing</label>
+            </div>
+
+            <div class="col-sm-2 col-lg-3 d-flex">
+            <input class="checkbox-inline checkbox pr-2 " type="checkbox" name="hotel">
+            <label class="checkbox-label pr-2 flex-fill">Hotel Booking</label>
+            </div>
+          </div>
+          <div class="row d-flex flex-row pt-2">
+            <div class="col-sm-2 col-lg-3 d-flex">
+            <input class="checkbox-inline checkbox pr-2 " type="checkbox" name="Attestation">
+            <label class="checkbox-label pr-2 flex-fill">Attestation</label>
+            </div>
+
+            <div class="col-sm-2 col-lg-3 d-flex">
+            <input class="checkbox-inline checkbox pr-2 " type="checkbox" name="holiday">
+            <label class="checkbox-label pr-2 flex-fill" >Holiday Package</label>
+            </div>
+
+            <div class="col-sm-2 col-lg-3 d-flex">
+            <input class="checkbox-inline checkbox pr-2 " type="checkbox" name="travel">
+            <label class="checkbox-label pr-2 flex-fill">Travel Insurance</label>
+            </div>
+
+            <div class="col-sm-2 col-lg-3 d-flex">
+            <input class="checkbox-inline checkbox pr-2 " type="checkbox" name="okToBoard">
+            <label class="checkbox-label pr-2 flex-fill">Ok To Board</label>
+            </div>
+          </div>
+          <div class="row d-flex flex-row justify-content-center">
+            <div class="col-sm-12 col-lg-6 p-2 ">
+                  <input  name="submit" class="btn btn-submit-outline-success" type="submit" value="Apply Now" required>
+            </div>
+          </div>
+       </form>
+     </div>
+    </section>
+
+    <!-- Next Section Goes here -->
+    <section class="container text-justify">
+        <h1 class="about-heading p-2 mt-5" >Best Visa Consultants in India</h1>
+        <span class="green-line mb-3"></span>
+        <div class="row d-flex flex-row justify-content-center">
+          <div class="col-sm-10 col-lg-12 p-2">
+            <p><strong>BTW Visa Services (India)</strong> Pvt. Ltd. is one of the best visa service provider in India, committed to providing an impressive and premium customer experience. From Pune to Pimpri-Chinchwad and Mumbai to Ahmedabad we all operate collectively to deliver the best solutions - be it Business, Tourist , Work, Student visa or Electronic visas for countries around the globe. We have made ourselves remarkable over the years in our field and ensure that our experience helps you.
+            </p>
+
+            <p>We are an expert in visa consultation & facilitation providing quick & easy visa processing services for applicants who wish to travel overseas. Our team comprises of highly qualified visa experts solely committed to providing an effective and efficient visa information and application service to commercial and private applicants. Our other travel related crucial aspects include air ticketing, hotel booking, travel insurance, holiday packages, attestation services and more. To stop a long story we provide complete travel solutions. We have served 15,000+ clients for visa process of various countries, which include Schengen, UK, USA, Thailand , Malaysia , Singapore, Oman, Australia , Canada, Sri Lanka, UAE visa etc.</p>
+
+            <p>Applying for a Visa? By choosing BTW Visa Services you improve the odds of getting your visa and securing your travel.</p>
+
+           </div>
+        </div>
+        <div class="row d-flex flex-row justify-content-center">
+          <div class="col-sm-2 col-lg-2 p-2 ">
+                <input  name="submit" class="btn btn-outline-info" type="button" value="Read More" required>
+          </div>
+        </div>
+    </section>
+
+      <!-- Our team Section goes here -->
+    <section class="container text-justify" style="background-color: #f8f8f8;">
+      <h1 class="about-heading p-2 mt-5" >Popular Tourist Visa for Indian Citizens
+      </h1>
+        <span class="green-line mb-3"></span>
+        <p class="text-center p-3">These are the most visited countries by Indian tourist, choose and apply for your tourist visa, simple visa application process.</p>
+        <div class="container mb-5 pb-5" >
+          <div class="row d-flex flex-row">
+            <div class="col-sm-4 col-lg-2">
+                  <input  name="submit" class="btn btn-outline-info mb-2" type="button" value="Australia Visa" >
+            </div>
+            <div class="col-sm-4 col-lg-2">
+                  <input  name="submit" class="btn btn-outline-info mb-2" type="button" value="Armenia Visa" >
+            </div>
+            <div class="col-sm-4 col-lg-2">
+                  <input  name="submit" class="btn btn-outline-info mb-2" type="button" value="Azerbaijan Visa" >
+            </div>
+            <div class="col-sm-4 col-lg-2">
+                  <input  name="submit" class="btn btn-outline-info mb-2" type="button" value="Bahrain Visa" >
+            </div>
+
+            <div class="col-sm-4 col-lg-2">
+                  <input  name="submit" class="btn btn-outline-info mb-2" type="button" value="Hong Kong Visa" >
+            </div>
+            <div class="col-sm-4 col-lg-2">
+                  <input  name="submit" class="btn btn-outline-info mb-2" type="button" value="Kenya Visa" >
+            </div>
+          </div>
+          <div class="row d-flex flex-row">
+            <div class="col-sm-4 col-lg-2">
+                  <input  name="submit" class="btn btn-outline-info" type="button" value="Malaysia Visa" >
+            </div>
+            <div class="col-sm-4 col-lg-2">
+                  <input  name="submit" class="btn btn-outline-info mb-2" type="button" value="Oman Visa" >
+            </div>
+            <div class="col-sm-4 col-lg-2">
+                  <input  name="submit" class="btn btn-outline-info mb-2" type="button" value="Thailand Visa" >
+            </div>
+            <div class="col-sm-4 col-lg-2">
+                  <input  name="submit" class="btn btn-outline-info mb-2" type="button" value="Turkey Visa" required>
+            </div>
+            <div class="col-sm-4 col-lg-2">
+                  <input  name="submit" class="btn btn-outline-info mb-2" type="button" value="Taiwan Visa" required>
+            </div>
+            <div class="col-sm-4 col-lg-2">
+                  <input  name="submit" class="btn btn-outline-info mb-2" type="button" value="UAE Visa" required>
+            </div>
+          </div>
+
+          <div class="row d-flex flex-row">
+            <div class="col-sm-4 col-lg-2">
+                  <input  name="submit" class="btn btn-outline-info" type="button" value="USA Visa" >
+            </div>
+            <div class="col-sm-4 col-lg-2">
+                  <input  name="submit" class="btn btn-outline-info mb-2" type="button" value="UK Visa" >
+            </div>
+            <div class="col-sm-4 col-lg-2">
+                  <input  name="submit" class="btn btn-outline-info mb-2" type="button" value="Canada Visa" >
+            </div>
+            <div class="col-sm-4 col-lg-2">
+                  <input  name="submit" class="btn btn-outline-info mb-2" type="button" value="Germany Visa" required>
+            </div>
+            <div class="col-sm-4 col-lg-2">
+                  <input  name="submit" class="btn btn-outline-info mb-2" type="button" value="Qatar Visa" required>
+            </div>
+            <div class="col-sm-4 col-lg-2">
+                  <input  name="submit" class="btn btn-outline-info mb-2" type="button" value="Kuwait Visa" required>
+            </div>
+          </div>
+          <div class="row d-flex flex-row">
+            <div class="col-sm-4 col-lg-2">
+                  <input  name="submit" class="btn btn-outline-info" type="button" value="Italy Visa" >
+            </div>
+            <div class="col-sm-4 col-lg-2">
+                  <input  name="submit" class="btn btn-outline-info mb-2" type="button" value="China Visa" >
+            </div>
+            <div class="col-sm-4 col-lg-2">
+                  <input  name="submit" class="btn btn-outline-info mb-2" type="button" value="Greece Visa" >
+            </div>
+            <div class="col-sm-4 col-lg-2">
+                  <input  name="submit" class="btn btn-outline-info mb-2" type="button" value="Japan Visa" required>
+            </div>
+            <div class="col-sm-4 col-lg-2">
+                  <input  name="submit" class="btn btn-outline-info mb-2" type="button" value="South Korea Visa" required>
+            </div>
+            <div class="col-sm-4 col-lg-2">
+                  <input  name="submit" class="btn btn-outline-info mb-2" type="button" value="Poland Visa" required>
+            </div>
+          </div>
+          <div class="row d-flex flex-row">
+            <div class="col-sm-4 col-lg-2">
+                  <input  name="submit" class="btn btn-outline-info" type="button" value="Russia Visa" >
+            </div>
+            <div class="col-sm-4 col-lg-2">
+                  <input  name="submit" class="btn btn-outline-info mb-2" type="button" value="Austria Visa" >
+            </div>
+            <div class="col-sm-4 col-lg-2">
+                  <input  name="submit" class="btn btn-outline-info mb-2" type="button" value="Schengen Visa" >
+            </div>
+          </div>
+        </div>
+    </section>
+
+      <!-- about section goes here -->
+    <section class="container">
+      <div class="row">
+        <div class="col-sm-12 col-lg-6">
+        <h4 class="about-heading p-2 mt-5 text-left" >Most Trusted Visa Consultancy</h4>
+        <span class="green-line green-line-small mb-3"></span>
+        <p class="text-justify p-2"><strong>BTW Visa Services (India) Pvt. Ltd.</strong> is an ISO 9001-2008 certified company. We are more than just a visa consultancy, we provide complete travel solutions to our customers. Our visa and travel consultants provide excellent customer service whether you avail our services online or visit our office. What makes us distinct from our competitors particularly, we provide one to one counseling for every inquiry we receive and aim to create the best experience for our customers. </p>
+        </div>
+        <div class="col-sm-12 col-lg-6">
+          <h4 class="about-heading p-2 mt-5 text-left" >Why Choose Us?</h4>
+        <span class="green-line green-line-small mb-3"></span>
+        </div>
+      </div>
+    </section>
+  </body>
+
+</html>

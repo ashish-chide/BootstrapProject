@@ -1,0 +1,114 @@
+body{
+    -webkit-animation: fadein 1s;
+       -moz-animation: fadein 1s;
+        -ms-animation: fadein 1s;
+         -o-animation: fadein 1s;
+            animation: fadein 1s;
+}
+@keyframes fadein {
+    from { opacity: 0;}
+    to   { opacity: 1;}
+}
+input,textarea,{
+  text-indent: 10px;
+}
+p{
+  color: #777777;
+}
+.form-background {
+  display: flex;
+}
+.login-button:hover{
+  background-color: #BFBFBF;
+  color: black;
+}
+
+.background-container{
+  background: #90b746;
+  width: 100%;
+  height:auto; /* should i use width and height */
+}
+.main-heading{
+  color:#fff;
+  text-align:center;
+  font-family: 'Roboto', sans-serif;
+}
+.myform{
+  width: auto;
+}
+.label-color{
+  color:white;
+}
+.input-background{
+  background-color: #90b746;
+  border:1px solid white;
+  color:white;
+  height: 33px;
+  width: 325px;
+}
+.input-background:focus{
+  border:1px solid #90b746;
+}
+
+.duration-select{
+  width: 115px;
+  height: 33px;
+}
+.duration-input{
+  background-color: transparent;
+  border:1px solid white;
+  color:white;
+  width: 204px;
+  height: 33px;
+}
+.submit-color{
+  color: white;
+  border-color:white;
+  width: 286px;
+}
+.submit-color:hover{
+  border-color:white;
+  background-color: white;
+  color:#a5d549;
+}
+.textarea{
+  background-color: transparent;
+  border:1px solid white;
+  color:white;
+  width: 325px;
+  height: 66px;
+}
+::-webkit-input-placeholder{
+  color:white;
+}
+.white-line{
+  background-color: #fff;
+  display: inline-block;
+  height: 2px;
+  width: 100%;
+}
+.checkbox{
+  width:1.3em;
+  height: 1.3em;
+}
+.checkbox-label{
+  color:white;
+  text-indent: 10px;
+}
+
+
+/*This is css for about section */
+
+.about-heading{
+  color: #90b746;
+  text-align:center;
+}
+.green-line{
+  background-color: #90b746;
+  display: inline-block;
+  height: 2px;
+  width: 100%;
+}
+.green-line-small{
+  width: 30%;
+}
