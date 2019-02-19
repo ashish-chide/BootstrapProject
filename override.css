@@ -39,4 +39,10 @@
   color: white;
   border:1px solid #777777;
 }
-
+.fa-home{
+  color:#90b746 ;
+  font-size: 47px ;
+}
+.fa-home:hover{
+  color: black !important;
+}
